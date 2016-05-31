@@ -1,0 +1,64 @@
+/* General Structure */
+body{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+}
+
+/* General Styling */
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size:5em;
+	text-align:center;
+	padding:0.5em 0 0 0;
+	margin:0;
+}
+
+h2{
+	font-family: 'Amatic SC', cursive;
+	font-size:2.5em;
+	text-align:center;
+}
+
+h3{
+	font-family: 'Amatic SC', cursive;
+	font-size:1.5em;
+	text-align:center;	
+}
+p{
+	font-family:'Droid Sans', Helvetica, Arial, sans-serif;
+	line-height:1.5;
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.strong{
+	font-weight: bold;
+}
+
+/* ----------- Tablet - Landscape ------------- */
+@media only screen and (max-width:1024px) {
+	p{
+		width:60%;
+	}
+}
+
+/* ---------- Tablet - Portrait --------------- */
+@media only screen and (max-width:850px){
+	h1{
+		font-size:3.5em;
+	}
+	h2{
+		font-size:2.25em;
+	}
+	p{
+		width:75%;
+	}
+}
+
+/* ----------------- Mobile ---------------- */
+@media only screen and (max-width:699px){
+	
+}

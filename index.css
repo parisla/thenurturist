@@ -1,0 +1,501 @@
+/* ---------- Page Wide Styles ---------- */
+.divider{
+	width:100%;
+	margin:0 0 -1em 0;
+	clear:both;
+}
+#mce-error-response{
+	color:#ffffff;
+}
+#mce-success-response{
+	background-color:none;
+	color:#ffffff;	
+}
+div.mce_inline_error{
+	background-color:#2d2d2d;
+}
+#mce-responses{
+}
+
+/* ---------- Top and Nav ------------- */
+#top{
+	height:auto;
+	background-color:#2d2d2d;
+	text-align:center;
+	margin:0;
+	padding:0;
+	background: url('images/background.jpg') no-repeat center -5em;
+	background-size: cover; 
+}
+.logo{
+	width:30%;
+	margin:10em auto 10em auto;
+	min-width:400px;
+}
+#nav{
+	padding:1.5em;
+	font-size:1em;	
+}
+#nav ul{
+	margin:0 auto;
+	list-style: none;
+	position:relative;
+	color:#ffffff;
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}
+#nav ul li{
+	/* position:relative; */
+	display:inline;
+	margin-right:1.5em;
+}
+#nav ul li a {
+	color:#ffffff;
+	text-decoration:none;
+}
+#nav ul li a:link {
+	color:#ffffff;
+	text-decoration:none;
+}
+#nav ul li a:visited {
+	color:#ffffff;
+	text-decoration:none;
+}
+#nav ul li a:hover {
+	text-decoration:underline;
+}
+#nav ul li a:active {
+}
+#nav ul li a.selected{
+	text-decoration:underline;
+}
+
+
+
+/* --------------- Dividers --------------- */
+#divider1{
+	text-align:center;
+}
+#divider1 img.diamond{
+	height:200px; 
+	margin: -100px 0 -85px 0; 
+	position:relative; 
+	z-index:2;
+}
+#divider1 img.divider{
+	margin:-20px 0 -20px 0;  /* this moves divider up behind diamond and prevents white gap under divider */
+	position:relative;
+}
+#divider2{}
+#divider3{}
+#divider4{
+	margin:0em auto -0.5em auto;
+}
+#divider5{}
+#divider6{
+	margin:0em 0 0 0;
+	position:relative;
+	z-index: 2;
+}
+#divider7{
+	background-color:#9090cd;
+	margin:0;
+}
+
+
+/* -------------- Up Next --------------- */
+#upnext{
+	background-color: #00cdcd;
+	border:0.1em solid #00cdcd; /* borderless makes margin collapse */
+	clear: both;
+	color:#ffffff;
+
+}
+.upnext h1{
+	font-size:3.5em;
+}
+
+
+/* -------------- Welcome --------------- */
+#welcome{
+	clear: both;
+	background-color:#eeeeee;
+	border:0.1em solid #eeeeee; /* borderless makes margin collapse */
+	color:#666699;
+}
+
+
+/* -------------- Pre-Pregnancy --------------- */
+#prepregnancy{
+	clear: both;
+	color:#ffffff;
+	background-color:#9090cd;
+	text-align:center;
+}
+.yellow-arrows-down{
+	height:5em;
+	margin:-3em auto 0 auto;
+}
+#prepregnancy h1{
+	margin-top:-2em;
+}
+#prepregnancy p.strong
+{
+	font-weight:bold; 
+	font-size:1.25em; 
+	margin:1.75em auto;
+}
+
+/* -------------- Pregnancy --------------- */
+#pregnancy{
+	clear: both;
+	background: url('images/pregnancy.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height:40em;
+	width:100%;
+	color:#ffffff;
+}
+#pregnancy img.arrows-right{
+	width:15%;
+	margin-left:5%;
+	padding:0;
+	float:left;
+}
+#pregnancy img.arrows-left{
+	width:15%;
+	padding:0;
+	margin:0;
+	float:left;
+	margin-right:5%;
+}
+div.pregnancy-content{
+	width:40%; 
+	float:right;
+	padding:1em;
+}
+h1.pregnancy-content{
+	padding:0.5em 0 0 0;
+	margin: 0 auto;
+}
+h2.pregnancy-content{
+	padding:0;
+	margin: 0 auto;
+	width:60%; 
+	float:left; 
+}
+p.pregnancy-content{
+	clear:both; 
+	margin:2em auto 0 auto; 
+	width:80%;
+}
+
+
+/* -------------- Postpartum --------------- */
+#postpartum{
+	clear: both;
+	background: url('images/postpartum.jpg') no-repeat center right; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+ 	min-height:30em;
+ 	height:100%;
+	color:#9090cd;
+	margin-top:-1em;
+	overflow:hidden;
+}
+#postpartum div.postpartum-content{
+	width:30%; 
+	background-color:rgba(238,238,238,0.7); 
+	float:left; 
+	text-align:center; 
+	margin-left:7%;
+	padding:1em;
+}
+#postpartum h1{
+	padding:1.25em 0 0 0;
+}
+#postpartum p{
+	width:100%; 
+	font-weight:bold; 
+	margin:2.5em 0 0 0; 
+	color:#2d2d2d; 
+	line-height:2em;
+}
+#postpartum .email-label{
+	color:#2d2d2d;
+}
+#postpartum .submit-button{
+	width:23%;
+	text-align:right;
+	padding-right:8px;
+	float:left;
+}
+#postpartum .submit-button .button{
+	background-color:#2d2d2d; 
+	color:#eeeeee; 
+	margin:0 auto 0 auto;
+}
+.heart-arrow-dark{
+	width:80%; 
+	max-width:325px; 
+	margin:0 auto 2em auto;
+}
+.heart-arrow-light{
+	height:0;
+	width:0;
+	margin:0;
+	padding:0;
+}
+
+/* -------------- Parenthood --------------- */
+#parenthood{
+	clear: both;
+	background-color:#9090cd;
+	color:#ffffff;
+	position:relative;
+	padding-bottom:1em;
+}
+#parenthood h1{
+	 float:left;
+	 width:60%;
+	 z-index:2;
+	 position:relative;
+	 color:#ffffff;
+}
+#parenthood img.heart{
+	z-index:2; 
+	position:relative;
+}
+#parenthood h2{
+	clear:both;
+}
+#parenthood p{}
+#parenthood img.arrows-short{
+	float:right; 
+	margin:20% 10% 0 0; 
+	z-index:2; 
+	position:relative; 
+	width:10%;
+}
+#parenthood img.arrows-long{
+	float:left;
+	margin:10% 0 0 10%;
+	z-index:2;
+	position:relative;
+	width:10%;
+}
+
+
+/* -------------- Contact --------------- */
+#contact{
+	background-color:#9090cd;
+	color:#ffffff;
+}
+#contact h1{
+	color:#ffffff;
+}
+#contact p.contact-content{
+	text-align:center;
+	padding-bottom:4em;
+}
+#contact p.back-to-top{
+	width:100%; 
+	text-align:center; 
+	margin:0 1em 0 0; 
+	padding-bottom:2em;
+}
+
+
+/* -------------- Footer --------------- */
+#footer{
+	clear: both;
+	background-color:#9090cd;
+	padding:0;
+	margin:0;
+}
+#footer h1{
+	color:#ffffff;
+}
+#footer p{
+	text-align:center;
+	color:#eeeeee;
+	margin:0 0 0 0;
+	padding:0;
+	width:100%;
+	font-size:0.5em;
+}
+
+
+
+
+
+/* ------------ Tablet - Landscape -------------- */
+@media only screen and (max-width:1024px){
+	#top{
+		background: url('images/background.jpg') no-repeat center -4em;
+		/* background: url('images/background.jpg') no-repeat center -5em; */
+		/* width:100%; */
+		/* height:auto; */
+		/* background-color:#2d2d2d; */
+		/* text-align:center; */
+		/* margin:0; */
+		/* padding:0; */
+		background-size: cover;
+	}
+	.logo{
+		margin:6em auto 9em auto;
+	}
+	h1.pregnancy-content{
+		padding-top:0.75em;
+	}
+	#postpartum div.postpartum-content{
+		width:35%; 
+	}
+}
+
+/* ------------ Tablet - Portrait ------------------ */
+@media only screen and (max-width:850px){
+	#top{
+		background: url('images/background.jpg') no-repeat center 0; /* change to no-repeat center 1 em when nav has bg*/
+		background-size: cover;
+	}
+	.logo{
+		margin:6em auto 7em auto;
+		min-width:300px;
+	}
+	.diamond{
+		/* visibility:hidden; */
+	}
+	#divider1 img{
+		min-height:120px;
+	}
+	#nav{
+		font-size:1em;	
+		background-color:rgba(77,175,204,1);
+		box-shadow: 0em 1em 1em rgba(0,0,0,0.4);
+		padding:0.5em;
+	}
+	#nav ul{
+		margin:0 auto;
+		padding:0;
+	}
+	#nav ul li{
+		line-height:2.5;
+		margin-top:0;
+	}
+	#prepregnancy p.strong{
+		font-size:1em; 
+		margin:1.75em auto;
+	}
+	#prepregnancy .yellow-arrows-down{
+		height:4em;
+		margin:-1em auto 0 auto;
+	}
+	div.pregnancy-content{
+		width:50%; 
+		padding:1em;
+	}
+	#postpartum{
+		background: url('images/postpartum-small.jpg') no-repeat center right; 
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+	#postpartum div.postpartum-content{
+		margin:0em 0em 0em 0em;
+		width:100%;
+		padding:0;
+		background-color: rgba(0,0,0,0);
+	}
+	#postpartum #mc_embed_signup{
+		width:60%;
+	}
+	#postpartum h1{
+		color:#ffffff;
+	}
+	#postpartum p{
+		color:#ffffff;
+		font-weight:normal;
+		margin:0 10%;
+		width:80%;
+	}
+	#postpartum .email-label{
+		color:#ffffff;
+	}
+	#postpartum .submit-button{
+		float:right;
+		margin-right:2em;
+	}
+	#postpartum .submit-button .button{
+		background-color:#ffffff;
+		color:#2d2d2d;
+	}
+	.heart-arrow-dark{
+		height:0;
+		width:0;
+		margin:0;
+		padding:0;
+	}
+	.heart-arrow-light{
+		width:80%;
+		height:auto;
+		margin:0 auto 2em auto;
+		max-width:200px;
+	}
+}
+
+/* ----------------- Mobile ---------------- */
+@media only screen and (max-width:699px){
+	.logo{
+		margin:5em auto 7em auto;
+	}
+	#prepregnancy p.strong{
+		font-size:1em; 
+		margin:1.75em auto;
+	}
+	div.pregnancy-content{
+		width:50%; 
+		padding:1em;
+	}
+	#pregnancy img.arrows-right{
+		width:10%;
+		margin-left:15%;
+	}
+	#pregnancy img.arrows-left{
+		width:10%;
+		margin-right:15%;
+	}
+	#pregnancy #mc_embed_signup{
+		width:60%;
+	}
+	h1.pregnancy-content{
+		padding-bottom:0.5em;
+	}
+	h2.pregnancy-content{
+		width:50%; 
+	}
+	p.pregnancy-content{
+		width:80%;
+	}
+	div.pregnancy-content{
+		width:80%; 
+		padding:1em;
+		float:none;
+		margin:0 auto;
+	}	
+}
+
+
+
+/* ----------------- Mobile Small ---------------- */
+@media only screen and (max-width:599px){
+	#prepregnancy .yellow-arrows-down{
+		height:3em;
+		margin:-599pxem auto 0 auto;
+		padding:-10em 0 0 0;
+	}
+}
